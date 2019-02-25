@@ -96,6 +96,9 @@ def die() :
     global dead
     dead = True
     run = False
+    
+    sleep(1)
+    setVariables()
 
 setVariables()
 
